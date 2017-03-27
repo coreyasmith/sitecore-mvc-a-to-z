@@ -1,0 +1,28 @@
+﻿---
+ID: "24c08b06-8cde-472c-90de-2d05fe2eeade"
+Parent: "3ff91065-bca4-49fc-8249-3278ca197134"
+Template: "5f67975a-ba5b-4a4b-afa1-006e43b6ad87"
+Path: /sitecore/content/Home/Local Assets/Sitecore Jumbotron
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170327T015850Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "c526bbcb-d53f-4a98-8a45-dcfa9228ca53"
+      Hint: Subtitle
+      Value: The Sitecore Experience Platform (XP) empowers you to market in context of current and past customer interaction with your brand, across any channel and in real time.
+    - ID: "d671ca10-067a-4444-9bf8-6adf6a2dcfc2"
+      Hint: Headline
+      Value: Sitecore
+    - ID: "d9e05980-24f6-40e3-b5d0-932f6ba78bf6"
+      Hint: Body
+      Value: |
+        <p><a href="http://www.sitecore.net" class="btn btn-primary btn-lg">Learn more »</a></p>

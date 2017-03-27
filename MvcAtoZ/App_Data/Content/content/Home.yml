@@ -63,6 +63,22 @@ SharedFields:
 - ID: "dec8d2d5-e3cf-48b6-a653-8e69e2716641"
   Hint: __Security
   Value: 
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{BF6B3668-0CAB-4464-8458-8FBA42B440BF}"
+          s:ds="{24C08B06-8CDE-472C-90DE-2D05FE2EEADE}"
+          s:id="{C1FAF211-3EAA-4A51-9ED3-B16CDBCF1D01}"
+          s:par=""
+          s:ph="content-main" />
+      </d>
+    </r>
 Languages:
 - Language: da
   Fields:
@@ -145,12 +161,6 @@ Languages:
     - ID: "ef9b9b4c-5912-4e93-89dd-784b08a5758b"
       Hint: Body
       Value: |
-        <div class="jumbotron">
-            <h1>Sitecore</h1>
-            <p class="lead">The Sitecore Experience Platform (XP) empowers you to market in context of current and past customer interaction with your brand, across any channel and in real time.</p>
-            <p><a href="http://www.sitecore.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
-        </div>
-        
         <div class="row">
             <div class="col-md-4">
                 <h2>Getting started</h2>

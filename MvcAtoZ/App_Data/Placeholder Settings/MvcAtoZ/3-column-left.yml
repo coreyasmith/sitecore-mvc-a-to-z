@@ -1,8 +1,8 @@
 ﻿---
-ID: "2b82ba11-661b-4e75-99cc-4a2a70845aba"
+ID: "359fc8a3-5e42-440f-97a2-9bcb5915bfbe"
 Parent: "2c19c84e-22bc-4cf9-a2d7-ec68648deae2"
 Template: "5c547d4e-7111-4995-95b0-6b561751bf2e"
-Path: "/sitecore/layout/Placeholder Settings/MvcAtoZ/content-main"
+Path: "/sitecore/layout/Placeholder Settings/MvcAtoZ/3-column-left"
 DB: master
 SharedFields:
 - ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
@@ -11,13 +11,11 @@ SharedFields:
   Value: 
 - ID: "7256bdab-1fd2-49dd-b205-cb4873d2917c"
   Hint: Placeholder Key
-  Value: "content-main"
+  Value: "3-column-left"
 - ID: "e391b526-d0c5-439d-803e-17512eae6222"
   Hint: Allowed Controls
   Type: TreelistEx
-  Value: |
-    {73E2C1F6-9092-46DE-98D7-6636987CB431}
-    {C1FAF211-3EAA-4A51-9ED3-B16CDBCF1D01}
+  Value: "{4C7B2C85-877A-4F6B-9508-4D352138653F}"
 Languages:
 - Language: en
   Versions:
@@ -25,7 +23,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20170327T015832Z
+      Value: 20170327T021428Z
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |

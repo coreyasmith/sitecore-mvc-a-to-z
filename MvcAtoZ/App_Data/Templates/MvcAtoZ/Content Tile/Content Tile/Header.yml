@@ -1,16 +1,16 @@
 ﻿---
-ID: "ef9b9b4c-5912-4e93-89dd-784b08a5758b"
-Parent: "3de45268-955a-4f30-a7e4-266a749b8ee6"
+ID: "35668ecd-9c32-400b-b718-2e52c68715e2"
+Parent: "845bef7e-1db5-44b6-9183-fc8c2857b17c"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/MvcAtoZ/Page/Page/Body
+Path: /sitecore/templates/MvcAtoZ/Content Tile/Content Tile/Header
 DB: master
 SharedFields:
 - ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
   Hint: Type
-  Value: Rich Text
+  Value: "Single-Line Text"
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
-  Value: 200
+  Value: 100
 Languages:
 - Language: en
   Versions:
@@ -18,7 +18,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20170327T010303Z
+      Value: 20170327T021358Z
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |

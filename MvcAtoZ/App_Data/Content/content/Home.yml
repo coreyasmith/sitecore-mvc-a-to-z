@@ -73,10 +73,37 @@ SharedFields:
         id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
         <r
           uid="{BF6B3668-0CAB-4464-8458-8FBA42B440BF}"
+          p:before="*"
           s:ds="{24C08B06-8CDE-472C-90DE-2D05FE2EEADE}"
           s:id="{C1FAF211-3EAA-4A51-9ED3-B16CDBCF1D01}"
           s:par=""
           s:ph="content-main" />
+        <r
+          uid="{CF8EA521-1767-4BA6-8FF7-745BBA6C90CB}"
+          p:after="r[@uid='{BF6B3668-0CAB-4464-8458-8FBA42B440BF}']"
+          s:id="{73E2C1F6-9092-46DE-98D7-6636987CB431}"
+          s:ph="content-main" />
+        <r
+          uid="{83870A41-451B-49D4-9905-B13C543A9E56}"
+          p:after="r[@uid='{CF8EA521-1767-4BA6-8FF7-745BBA6C90CB}']"
+          s:ds="{8E3CF44C-5C4E-47EE-B915-DFD52E9FB464}"
+          s:id="{4C7B2C85-877A-4F6B-9508-4D352138653F}"
+          s:par=""
+          s:ph="3-column-left" />
+        <r
+          uid="{1B6BC397-CB98-4E38-9D8C-F647ECB4DBD5}"
+          p:after="r[@uid='{83870A41-451B-49D4-9905-B13C543A9E56}']"
+          s:ds="{7649A500-3690-4D9B-B581-B2D5408E6DBF}"
+          s:id="{4C7B2C85-877A-4F6B-9508-4D352138653F}"
+          s:par=""
+          s:ph="3-column-middle" />
+        <r
+          uid="{184ABF0A-D1F9-48F8-8DBC-525FA1555929}"
+          p:after="*[1=2]"
+          s:ds="{F50D34BF-4615-40A4-A7DE-8E387417D10B}"
+          s:id="{4C7B2C85-877A-4F6B-9508-4D352138653F}"
+          s:par=""
+          s:ph="3-column-right" />
       </d>
     </r>
 Languages:
@@ -158,28 +185,6 @@ Languages:
     - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
       Hint: __Valid from
       Value: 
-    - ID: "ef9b9b4c-5912-4e93-89dd-784b08a5758b"
-      Hint: Body
-      Value: |
-        <div class="row">
-            <div class="col-md-4">
-                <h2>Getting started</h2>
-                <p>
-                    Complete the Sitecore Developer Fundamentals eLearning Course to get started building great websites on the Sitecore Experience Platform.
-                </p>
-                <p><a class="btn btn-default" href="https://elearning.sitecore.net/public/ContentDetails.aspx?id=7B781B1C3510447BBA22D7B0BF3251A2">Learn more &raquo;</a></p>
-            </div>
-            <div class="col-md-4">
-                <h2>Get Sitecore modules</h2>
-                <p>Browse the Sitecore Marketplace to find great modules developed by the Sitecore community to jumpstart your Sitecore projects.</p>
-                <p><a class="btn btn-default" href="https://marketplace.sitecore.net/">Learn more &raquo;</a></p>
-            </div>
-            <div class="col-md-4">
-                <h2>Community</h2>
-                <p>Join the Sitecore Community forums to connect with fellow Sitecore developers, ask questions, and learn more about Sitecore.</p>
-                <p><a class="btn btn-default" href="https://community.sitecore.net/">Learn more &raquo;</a></p>
-            </div>
-        </div>
 - Language: "ja-JP"
   Fields:
   - ID: "577f1689-7de4-4ad2-a15f-7fdc1759285f"

@@ -1,0 +1,28 @@
+﻿---
+ID: "7649a500-3690-4d9b-b581-b2d5408e6dbf"
+Parent: "3ff91065-bca4-49fc-8249-3278ca197134"
+Template: "743474ba-421c-4182-9f6a-033bad4528a8"
+Path: /sitecore/content/Home/Local Assets/Sitecore Modules
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170327T022249Z
+    - ID: "35668ecd-9c32-400b-b718-2e52c68715e2"
+      Hint: Header
+      Value: Get Sitecore modules
+    - ID: "55bfd501-b0d8-4238-bbdd-7df76b79f165"
+      Hint: Body
+      Value: Browse the Sitecore Marketplace to find great modules developed by the Sitecore community to jumpstart your Sitecore projects.
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "bcf725cd-9671-40a9-8297-39d43e9b6dfe"
+      Hint: Link
+      Value: |
+        <link text="Learn more »" linktype="external" url="https://marketplace.sitecore.net/" anchor="" target="" />

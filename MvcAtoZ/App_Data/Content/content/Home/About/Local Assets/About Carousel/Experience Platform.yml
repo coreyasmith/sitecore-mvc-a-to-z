@@ -1,0 +1,25 @@
+﻿---
+ID: "46b538c3-ec40-4bca-af55-35d0daa0ab68"
+Parent: "96dcadac-e85e-49de-9cbb-e259c30d71c9"
+Template: "836206ba-bac2-467e-8e1b-c8a6bcbf157f"
+Path: /sitecore/content/Home/About/Local Assets/About Carousel/Experience Platform
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170327T030257Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "a3d84bf2-0f15-4103-ae41-f5cb65440868"
+      Hint: Image
+      Value: |
+        <image mediaid="{3379495D-8C2E-4309-B87D-BBDDCCBB3159}" />
+    - ID: "a64f641d-7c10-4a0e-9f7e-feed5d674720"
+      Hint: Caption
+      Value: "Sitecore is an omni-channel platform."

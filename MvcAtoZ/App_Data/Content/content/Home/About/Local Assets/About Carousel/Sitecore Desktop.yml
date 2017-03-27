@@ -1,0 +1,25 @@
+﻿---
+ID: "c3b8bd40-fb23-4755-9fba-68800f632b4c"
+Parent: "96dcadac-e85e-49de-9cbb-e259c30d71c9"
+Template: "836206ba-bac2-467e-8e1b-c8a6bcbf157f"
+Path: /sitecore/content/Home/About/Local Assets/About Carousel/Sitecore Desktop
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170327T030328Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "a3d84bf2-0f15-4103-ae41-f5cb65440868"
+      Hint: Image
+      Value: |
+        <image mediaid="{7C509791-39FB-4B21-9CCF-1DCED4252156}" />
+    - ID: "a64f641d-7c10-4a0e-9f7e-feed5d674720"
+      Hint: Caption
+      Value: The Sitecore back end makes it easy for content authors to create content.

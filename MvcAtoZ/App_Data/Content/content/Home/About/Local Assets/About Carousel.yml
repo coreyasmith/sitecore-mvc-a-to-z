@@ -1,0 +1,17 @@
+﻿---
+ID: "96dcadac-e85e-49de-9cbb-e259c30d71c9"
+Parent: "f5c212a0-8f3d-4440-8a96-430027bd3be0"
+Template: "4c0e48c4-1db5-41f0-9167-3bab61f52dc2"
+Path: /sitecore/content/Home/About/Local Assets/About Carousel
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170327T030241Z
+    - ID: "d636911f-e3e6-4d9c-9439-bbedd18abc57"
+      Hint: Title
+      Value: About

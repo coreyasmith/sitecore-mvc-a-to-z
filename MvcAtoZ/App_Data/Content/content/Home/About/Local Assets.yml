@@ -1,0 +1,14 @@
+﻿---
+ID: "f5c212a0-8f3d-4440-8a96-430027bd3be0"
+Parent: "590aed29-f76b-4f83-9c70-3f04f9ad525f"
+Template: "bfbfbbae-6346-4189-b921-3ab47e10722f"
+Path: /sitecore/content/Home/About/Local Assets
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170327T030221Z

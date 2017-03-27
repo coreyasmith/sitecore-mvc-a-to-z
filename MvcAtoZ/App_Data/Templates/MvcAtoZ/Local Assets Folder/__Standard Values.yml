@@ -1,0 +1,18 @@
+﻿---
+ID: "b1ce0f1a-31aa-43ed-80ec-478bd231c286"
+Parent: "bfbfbbae-6346-4189-b921-3ab47e10722f"
+Template: "bfbfbbae-6346-4189-b921-3ab47e10722f"
+Path: /sitecore/templates/MvcAtoZ/Local Assets Folder/__Standard Values
+DB: master
+SharedFields:
+- ID: "a791f095-2521-4b4d-bef9-21dda221f608"
+  Hint: __Style
+  Value: "font-style: italic; color: gray;"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170327T011720Z

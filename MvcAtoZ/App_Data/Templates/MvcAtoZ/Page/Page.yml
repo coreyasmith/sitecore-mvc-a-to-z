@@ -1,0 +1,14 @@
+﻿---
+ID: "3de45268-955a-4f30-a7e4-266a749b8ee6"
+Parent: "e8134447-5a71-4de2-be59-2869f6cb9a6c"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/MvcAtoZ/Page/Page
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170327T010256Z

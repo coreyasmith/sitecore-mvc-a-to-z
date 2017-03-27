@@ -175,6 +175,7 @@
     <Compile Include="Controllers\JumbotronController.cs" />
     <Compile Include="Controllers\NavigationController.cs" />
     <Compile Include="Infrastructure\BaseController.cs" />
+    <Compile Include="Infrastructure\JsonFilterAttribute.cs" />
     <Compile Include="Models\CarouselItem.cs" />
     <Compile Include="Models\CarouselViewModel.cs" />
     <Compile Include="Models\CarouselItemViewModel.cs" />

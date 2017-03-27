@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace MvcAtoZ.Views.Navigation
+namespace MvcAtoZ.Components.Navigation
 {
     public class NavigationBarViewModel
     {

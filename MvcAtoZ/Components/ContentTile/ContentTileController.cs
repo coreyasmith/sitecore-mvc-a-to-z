@@ -1,7 +1,7 @@
 ﻿using System.Web.Mvc;
 using MvcAtoZ.Infrastructure;
 
-namespace MvcAtoZ.Views.ContentTile
+namespace MvcAtoZ.Components.ContentTile
 {
     public class ContentTileController : BaseController
     {

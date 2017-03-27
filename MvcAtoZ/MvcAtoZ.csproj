@@ -160,6 +160,7 @@
     <Content Include="App_Config\Include\Glass.Mapper.Sc.Start.config" />
     <Content Include="App_Config\Include\Glass.Mapper.Sc.config" />
     <Content Include="App_Config\Include\Glass.Mapper.Sc.CodeFirst.config.exclude" />
+    <Content Include="Components\web.config" />
     <None Include="Scripts\jquery-3.1.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.1.1.js" />
     <Content Include="Scripts\jquery-3.1.1.min.js" />
@@ -170,23 +171,24 @@
   <ItemGroup>
     <Compile Include="App_Start\GlassMapperSc.cs" />
     <Compile Include="App_Start\GlassMapperScCustom.cs" />
-    <Compile Include="Views\Carousel\CarouselController.cs" />
-    <Compile Include="Views\ContentTile\ContentTileController.cs" />
-    <Compile Include="Views\Jumbotron\JumbotronController.cs" />
-    <Compile Include="Views\Navigation\NavigationController.cs" />
+    <Compile Include="Infrastructure\ComponentsFolderConventionViewEngine.cs" />
+    <Compile Include="Components\Carousel\CarouselController.cs" />
+    <Compile Include="Components\ContentTile\ContentTileController.cs" />
+    <Compile Include="Components\Jumbotron\JumbotronController.cs" />
+    <Compile Include="Components\Navigation\NavigationController.cs" />
     <Compile Include="Infrastructure\BaseController.cs" />
     <Compile Include="Infrastructure\JsonFilterAttribute.cs" />
-    <Compile Include="Views\Carousel\CarouselItem.cs" />
-    <Compile Include="Views\Carousel\CarouselViewModel.cs" />
-    <Compile Include="Views\Carousel\CarouselItemViewModel.cs" />
-    <Compile Include="Views\Carousel\Carousel.cs" />
-    <Compile Include="Views\ContentTile\ContentTile.cs" />
-    <Compile Include="Views\ContentTile\ContentTileViewModel.cs" />
-    <Compile Include="Views\Jumbotron\Jumbotron.cs" />
-    <Compile Include="Views\Jumbotron\JumbotronViewModel.cs" />
-    <Compile Include="Views\Navigation\NavigationBarItem.cs" />
-    <Compile Include="Views\Navigation\NavigationBarViewModel.cs" />
-    <Compile Include="Views\Navigation\Page.cs" />
+    <Compile Include="Components\Carousel\CarouselItem.cs" />
+    <Compile Include="Components\Carousel\CarouselViewModel.cs" />
+    <Compile Include="Components\Carousel\CarouselItemViewModel.cs" />
+    <Compile Include="Components\Carousel\Carousel.cs" />
+    <Compile Include="Components\ContentTile\ContentTile.cs" />
+    <Compile Include="Components\ContentTile\ContentTileViewModel.cs" />
+    <Compile Include="Components\Jumbotron\Jumbotron.cs" />
+    <Compile Include="Components\Jumbotron\JumbotronViewModel.cs" />
+    <Compile Include="Components\Navigation\NavigationBarItem.cs" />
+    <Compile Include="Components\Navigation\NavigationBarViewModel.cs" />
+    <Compile Include="Components\Navigation\Page.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -196,11 +198,11 @@
     <Content Include="Scripts\jquery-3.1.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.1.1.min.map" />
     <Content Include="Views\Shared\Layout.cshtml" />
-    <Content Include="Views\Jumbotron\Jumbotron.cshtml" />
+    <Content Include="Components\Jumbotron\Jumbotron.cshtml" />
     <Content Include="Views\Shared\_3ColumnFrame.cshtml" />
-    <Content Include="Views\ContentTile\ContentTile.cshtml" />
-    <Content Include="Views\Navigation\NavigationBar.cshtml" />
-    <Content Include="Views\Carousel\Carousel.cshtml" />
+    <Content Include="Components\ContentTile\ContentTile.cshtml" />
+    <Content Include="Components\Navigation\NavigationBar.cshtml" />
+    <Content Include="Components\Carousel\Carousel.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

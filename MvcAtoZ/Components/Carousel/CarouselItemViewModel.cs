@@ -1,4 +1,4 @@
-﻿namespace MvcAtoZ.Views.Carousel
+﻿namespace MvcAtoZ.Components.Carousel
 {
     public class CarouselItemViewModel
     {

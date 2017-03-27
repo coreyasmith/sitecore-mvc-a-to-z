@@ -1,4 +1,4 @@
-﻿namespace MvcAtoZ.Views.Jumbotron
+﻿namespace MvcAtoZ.Components.Jumbotron
 {
     public class JumbotronViewModel
     {

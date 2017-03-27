@@ -2,7 +2,7 @@
 using Glass.Mapper.Sc.Configuration.Attributes;
 using Glass.Mapper.Sc.Fields;
 
-namespace MvcAtoZ.Views.Carousel
+namespace MvcAtoZ.Components.Carousel
 {
     [SitecoreType(TemplateId = "{836206BA-BAC2-467E-8E1B-C8A6BCBF157F}", AutoMap = true, EnforceTemplate = SitecoreEnforceTemplate.Template)]
     public class CarouselItem

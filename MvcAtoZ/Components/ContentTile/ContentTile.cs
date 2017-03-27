@@ -1,7 +1,7 @@
 ﻿using Glass.Mapper.Sc.Configuration.Attributes;
 using Glass.Mapper.Sc.Fields;
 
-namespace MvcAtoZ.Views.ContentTile
+namespace MvcAtoZ.Components.ContentTile
 {
     [SitecoreType(TemplateId = "{743474BA-421C-4182-9F6A-033BAD4528A8}", AutoMap = true)]
     public class ContentTile

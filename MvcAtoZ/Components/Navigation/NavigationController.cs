@@ -3,7 +3,7 @@ using System.Linq;
 using System.Web.Mvc;
 using MvcAtoZ.Infrastructure;
 
-namespace MvcAtoZ.Views.Navigation
+namespace MvcAtoZ.Components.Navigation
 {
     public class NavigationController : BaseController
     {

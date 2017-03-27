@@ -1,4 +1,4 @@
-﻿namespace MvcAtoZ.Views.Navigation
+﻿namespace MvcAtoZ.Components.Navigation
 {
     public class NavigationBarItem
     {

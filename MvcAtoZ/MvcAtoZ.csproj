@@ -172,10 +172,14 @@
     <Compile Include="App_Start\GlassMapperScCustom.cs" />
     <Compile Include="Controllers\ContentTileController.cs" />
     <Compile Include="Controllers\JumbotronController.cs" />
+    <Compile Include="Controllers\NavigationController.cs" />
     <Compile Include="Models\ContentTile.cs" />
     <Compile Include="Models\ContentTileViewModel.cs" />
     <Compile Include="Models\Jumbotron.cs" />
     <Compile Include="Models\JumbotronViewModel.cs" />
+    <Compile Include="Models\NavigationBarItem.cs" />
+    <Compile Include="Models\NavigationBarViewModel.cs" />
+    <Compile Include="Models\Page.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -188,6 +192,7 @@
     <Content Include="Views\Jumbotron\Jumbotron.cshtml" />
     <Content Include="Views\Shared\_3ColumnFrame.cshtml" />
     <Content Include="Views\ContentTile\ContentTile.cshtml" />
+    <Content Include="Views\Navigation\NavigationBar.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

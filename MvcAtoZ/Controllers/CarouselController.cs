@@ -7,7 +7,6 @@ namespace MvcAtoZ.Controllers
 {
     public class CarouselController : BaseController
     {
-        [JsonFilter]
         public ActionResult Carousel()
         {
             var dataSource = GetDataSourceItem<Carousel>();

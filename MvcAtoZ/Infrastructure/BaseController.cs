@@ -2,6 +2,7 @@
 
 namespace MvcAtoZ.Infrastructure
 {
+    [JsonFilter]
     public class BaseController : GlassController
     {
     }

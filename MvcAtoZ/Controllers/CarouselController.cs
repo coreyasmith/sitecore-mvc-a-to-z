@@ -27,12 +27,22 @@ namespace MvcAtoZ.Controllers
                 });
             }
 
-            if (Request.QueryString["json"] != null)
-            {
-                return Json(viewModel, JsonRequestBehavior.AllowGet);
-            }
-
             return View(viewModel);
+        }
+
+        protected override void OnActionExecuted(ActionExecutedContext filterContext)
+        {
+            if (filterContext.HttpContext.Request.QueryString["json"] == null) return;
+
+            // Cast to ViewResultBase to support both ViewResult and PartialViewResult
+            var viewResult = filterContext.Result as ViewResultBase;
+            if (viewResult == null) return;
+            
+            filterContext.Result = new JsonResult
+            {
+                Data = viewResult.Model,
+                JsonRequestBehavior = JsonRequestBehavior.AllowGet
+            };
         }
     }
 }

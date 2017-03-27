@@ -1,12 +1,12 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 using System.Web.Mvc;
-using Glass.Mapper.Sc.Web.Mvc;
+using MvcAtoZ.Infrastructure;
 using MvcAtoZ.Models;
 
 namespace MvcAtoZ.Controllers
 {
-    public class NavigationController : GlassController
+    public class NavigationController : BaseController
     {
         public ActionResult NavigationBar()
         {

@@ -1,10 +1,10 @@
 ﻿using System.Web.Mvc;
-using Glass.Mapper.Sc.Web.Mvc;
+using MvcAtoZ.Infrastructure;
 using MvcAtoZ.Models;
 
 namespace MvcAtoZ.Controllers
 {
-    public class ContentTileController : GlassController
+    public class ContentTileController : BaseController
     {
         public ActionResult ContentTile()
         {

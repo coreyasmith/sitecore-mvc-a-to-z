@@ -1,10 +1,10 @@
 ﻿using System.Web.Mvc;
-using Glass.Mapper.Sc.Web.Mvc;
+using MvcAtoZ.Infrastructure;
 using MvcAtoZ.Models;
 
 namespace MvcAtoZ.Controllers
 {
-    public class JumbotronController : GlassController
+    public class JumbotronController : BaseController
     {
         public ActionResult Jumbotron()
         {

@@ -27,6 +27,11 @@ namespace MvcAtoZ.Controllers
                 });
             }
 
+            if (Request.QueryString["json"] != null)
+            {
+                return Json(viewModel, JsonRequestBehavior.AllowGet);
+            }
+
             return View(viewModel);
         }
     }

@@ -1,8 +1,7 @@
 ﻿using System.Web.Mvc;
 using MvcAtoZ.Infrastructure;
-using MvcAtoZ.Models;
 
-namespace MvcAtoZ.Controllers
+namespace MvcAtoZ.Views.Jumbotron
 {
     public class JumbotronController : BaseController
     {

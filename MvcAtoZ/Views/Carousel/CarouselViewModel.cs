@@ -1,7 +1,6 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 
-namespace MvcAtoZ.Models
+namespace MvcAtoZ.Views.Carousel
 {
     public class CarouselViewModel
     {

@@ -1,9 +1,8 @@
 ﻿using System.Linq;
 using System.Web.Mvc;
 using MvcAtoZ.Infrastructure;
-using MvcAtoZ.Models;
 
-namespace MvcAtoZ.Controllers
+namespace MvcAtoZ.Views.Carousel
 {
     public class CarouselController : BaseController
     {

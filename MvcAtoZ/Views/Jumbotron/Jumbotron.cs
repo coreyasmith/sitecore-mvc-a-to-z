@@ -1,6 +1,6 @@
 ﻿using Glass.Mapper.Sc.Configuration.Attributes;
 
-namespace MvcAtoZ.Models
+namespace MvcAtoZ.Views.Jumbotron
 {
     [SitecoreType(TemplateId = "{5F67975A-BA5B-4A4B-AFA1-006E43B6AD87}", AutoMap = true)]
     public class Jumbotron

@@ -1,4 +1,4 @@
-﻿namespace MvcAtoZ.Models
+﻿namespace MvcAtoZ.Views.ContentTile
 {
     public class ContentTileViewModel
     {

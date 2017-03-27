@@ -44,5 +44,17 @@ namespace MvcAtoZ.Controllers
                 JsonRequestBehavior = JsonRequestBehavior.AllowGet
             };
         }
+
+        protected override void OnResultExecuting(ResultExecutingContext filterContext)
+        {
+            var contentType = filterContext.HttpContext.Response.ContentType;
+            filterContext.Controller.ViewBag.ContentType = contentType;
+        }
+
+        protected override void OnResultExecuted(ResultExecutedContext filterContext)
+        {
+            var contentType = filterContext.Controller.ViewBag.ContentType;
+            filterContext.HttpContext.Response.ContentType = contentType;
+        }
     }
 }

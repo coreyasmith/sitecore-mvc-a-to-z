@@ -1,35 +1,35 @@
 ﻿@model MvcAtoZ.Components.Carousel.CarouselViewModel
 
-<h1>@Model.Title</h1>
+<h1 class="mt-2">@Model.Title</h1>
 <div id="carousel" class="carousel slide" data-ride="carousel">
-    <!-- Indicators -->
     <ol class="carousel-indicators">
-        @for (var i = 0; i < Model.Items.Count; i++)
+        @foreach (var item in Model.Items)
         {
-            <li data-target="#carousel" data-slide-to="@i" class="@Model.Items[i].Class"></li>
+            <li data-target="#carousel" data-slide-to="@item.Index" class="@item.Class"></li>
         }
     </ol>
 
-    <!-- Wrapper for slides -->
-    <div class="carousel-inner" role="listbox">
-        @for (var i = 0; i < Model.Items.Count; i++)
+    <div class="carousel-inner">
+        @foreach (var item in Model.Items)
         {
-            <div class="item @Model.Items[i].Class">
-                <img src="@Model.Items[i].ImageUrl" alt="@Model.Items[i].ImageAlt">
-                <div class="carousel-caption">
-                    @Model.Items[i].Caption
-                </div>
+            <div class="carousel-item @item.Class">
+                <img class="d-block w-100" src="@item.ImageUrl" alt="@item.ImageAlt">
+                @if (item.ShowCaption)
+                {
+                    <div class="carousel-caption d-none d-md-block">
+                        <p>@item.Caption</p>
+                    </div>
+                }
             </div>
         }
     </div>
 
-    <!-- Controls -->
-    <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
-        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="sr-only">Previous</span>
     </a>
-    <a class="right carousel-control" href="#carousel" role="button" data-slide="next">
-        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="sr-only">Next</span>
     </a>
 </div>

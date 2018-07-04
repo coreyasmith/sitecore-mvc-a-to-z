@@ -2,7 +2,7 @@
 ID: "9c7e324a-007e-4f32-a4cf-d4da9a190928"
 Parent: "96dcadac-e85e-49de-9cbb-e259c30d71c9"
 Template: "836206ba-bac2-467e-8e1b-c8a6bcbf157f"
-Path: /sitecore/content/Home/About/Local Assets/About Carousel/Symposium 2017
+Path: /sitecore/content/Home/About/Local Assets/About Carousel/Symposium 2018
 DB: master
 Languages:
 - Language: en
@@ -22,4 +22,4 @@ Languages:
         <image mediaid="{671EF9FE-3ECD-4E65-8F28-6D958B7E218C}" />
     - ID: "a64f641d-7c10-4a0e-9f7e-feed5d674720"
       Hint: Caption
-      Value: "Sitecore Symposium 2017 will be hosted in Las Vegas!"
+      Value: "Sitecore Symposium 2018 will be hosted in Orlando!"

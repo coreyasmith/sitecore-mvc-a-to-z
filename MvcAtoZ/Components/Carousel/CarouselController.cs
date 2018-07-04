@@ -19,8 +19,10 @@ namespace MvcAtoZ.Components.Carousel
                 var item = dataSource.Items.ElementAt(i);
                 viewModel.Items.Add(new CarouselItemViewModel
                 {
+                    Index = i,
                     ImageUrl = item.Image.Src,
                     ImageAlt = item.Image.Alt,
+                    ShowCaption = !string.IsNullOrEmpty(item.Caption),
                     Caption = item.Caption,
                     Class = i == 0 ? "active" : string.Empty
                 });

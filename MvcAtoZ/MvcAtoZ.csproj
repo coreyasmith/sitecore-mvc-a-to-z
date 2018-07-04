@@ -198,6 +198,7 @@
     <Compile Include="Components\Navigation\NavigationBarViewModel.cs" />
     <Compile Include="Components\Navigation\Page.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Templates.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\web.config" />

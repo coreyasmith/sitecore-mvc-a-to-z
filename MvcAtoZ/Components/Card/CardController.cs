@@ -1,14 +1,14 @@
 ﻿using System.Web.Mvc;
 using MvcAtoZ.Infrastructure;
 
-namespace MvcAtoZ.Components.ContentTile
+namespace MvcAtoZ.Components.Card
 {
-    public class ContentTileController : BaseController
+    public class CardController : BaseController
     {
-        public ActionResult ContentTile()
+        public ActionResult Card()
         {
-            var dataSource = GetDataSourceItem<ContentTile>();
-            var viewModel = new ContentTileViewModel
+            var dataSource = GetDataSourceItem<Card>();
+            var viewModel = new CardViewModel
             {
                 Header = dataSource.Header,
                 Body = dataSource.Body,

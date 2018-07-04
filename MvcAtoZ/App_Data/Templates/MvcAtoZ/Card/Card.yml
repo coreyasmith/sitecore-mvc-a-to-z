@@ -2,7 +2,7 @@
 ID: "845bef7e-1db5-44b6-9183-fc8c2857b17c"
 Parent: "743474ba-421c-4182-9f6a-033bad4528a8"
 Template: "e269fbb5-3750-427a-9149-7aa950b49301"
-Path: /sitecore/templates/MvcAtoZ/Content Tile/Content Tile
+Path: /sitecore/templates/MvcAtoZ/Card/Card
 DB: master
 Languages:
 - Language: en

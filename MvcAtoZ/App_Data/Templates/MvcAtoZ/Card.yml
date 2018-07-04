@@ -2,7 +2,7 @@
 ID: "743474ba-421c-4182-9f6a-033bad4528a8"
 Parent: "cb4db100-9d59-41f4-8ab0-94a57d4aa6c1"
 Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
-Path: /sitecore/templates/MvcAtoZ/Content Tile
+Path: /sitecore/templates/MvcAtoZ/Card
 DB: master
 SharedFields:
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"

@@ -1,16 +1,16 @@
 ﻿---
-ID: "35668ecd-9c32-400b-b718-2e52c68715e2"
+ID: "bcf725cd-9671-40a9-8297-39d43e9b6dfe"
 Parent: "845bef7e-1db5-44b6-9183-fc8c2857b17c"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/MvcAtoZ/Content Tile/Content Tile/Header
+Path: /sitecore/templates/MvcAtoZ/Card/Card/Link
 DB: master
 SharedFields:
 - ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
   Hint: Type
-  Value: "Single-Line Text"
+  Value: General Link
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
-  Value: 100
+  Value: 300
 Languages:
 - Language: en
   Versions:

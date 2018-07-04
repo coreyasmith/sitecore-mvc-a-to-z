@@ -181,7 +181,7 @@
     <Compile Include="App_Start\GlassMapperScCustom.cs" />
     <Compile Include="Infrastructure\ComponentsFolderConventionViewEngine.cs" />
     <Compile Include="Components\Carousel\CarouselController.cs" />
-    <Compile Include="Components\ContentTile\ContentTileController.cs" />
+    <Compile Include="Components\Card\CardController.cs" />
     <Compile Include="Components\Jumbotron\JumbotronController.cs" />
     <Compile Include="Components\Navigation\NavigationController.cs" />
     <Compile Include="Infrastructure\BaseController.cs" />
@@ -190,8 +190,8 @@
     <Compile Include="Components\Carousel\CarouselViewModel.cs" />
     <Compile Include="Components\Carousel\CarouselItemViewModel.cs" />
     <Compile Include="Components\Carousel\Carousel.cs" />
-    <Compile Include="Components\ContentTile\ContentTile.cs" />
-    <Compile Include="Components\ContentTile\ContentTileViewModel.cs" />
+    <Compile Include="Components\Card\Card.cs" />
+    <Compile Include="Components\Card\CardViewModel.cs" />
     <Compile Include="Components\Jumbotron\Jumbotron.cs" />
     <Compile Include="Components\Jumbotron\JumbotronViewModel.cs" />
     <Compile Include="Components\Navigation\NavigationBarItem.cs" />
@@ -207,7 +207,7 @@
     <Content Include="Views\Shared\Layout.cshtml" />
     <Content Include="Components\Jumbotron\Jumbotron.cshtml" />
     <Content Include="Views\Shared\_3ColumnFrame.cshtml" />
-    <Content Include="Components\ContentTile\ContentTile.cshtml" />
+    <Content Include="Components\Card\Card.cshtml" />
     <Content Include="Components\Navigation\NavigationBar.cshtml" />
     <Content Include="Components\Carousel\Carousel.cshtml" />
     <Content Include="Scripts\jquery-3.3.1.slim.min.map" />

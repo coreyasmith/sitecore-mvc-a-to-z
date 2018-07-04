@@ -1,10 +1,10 @@
 ﻿using Glass.Mapper.Sc.Configuration.Attributes;
 using Glass.Mapper.Sc.Fields;
 
-namespace MvcAtoZ.Components.ContentTile
+namespace MvcAtoZ.Components.Card
 {
-    [SitecoreType(TemplateId = Templates.ContentTile.Id, AutoMap = true)]
-    public class ContentTile
+    [SitecoreType(TemplateId = Templates.Card.Id, AutoMap = true)]
+    public class Card
     {
         public virtual string Header { get; set; }
         public virtual string Body { get; set; }

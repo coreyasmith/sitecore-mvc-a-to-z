@@ -12,7 +12,7 @@
             public const string Id = "{836206BA-BAC2-467E-8E1B-C8A6BCBF157F}";
         }
 
-        public struct ContentTile
+        public struct Card
         {
             public const string Id = "{743474BA-421C-4182-9F6A-033BAD4528A8}";
         }

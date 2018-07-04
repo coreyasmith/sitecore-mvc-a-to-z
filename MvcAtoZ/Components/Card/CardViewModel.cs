@@ -1,6 +1,6 @@
-﻿namespace MvcAtoZ.Components.ContentTile
+﻿namespace MvcAtoZ.Components.Card
 {
-    public class ContentTileViewModel
+    public class CardViewModel
     {
         public string Header { get; set; }
         public string Body { get; set; }

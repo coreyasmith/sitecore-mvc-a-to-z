@@ -25,4 +25,4 @@ Languages:
     - ID: "d9e05980-24f6-40e3-b5d0-932f6ba78bf6"
       Hint: Body
       Value: |
-        <p><a href="http://www.sitecore.net" class="btn btn-primary btn-lg">Learn more »</a></p>
+        <a href="https://www.sitecore.com/" class="btn btn-primary btn-lg">Learn more</a>

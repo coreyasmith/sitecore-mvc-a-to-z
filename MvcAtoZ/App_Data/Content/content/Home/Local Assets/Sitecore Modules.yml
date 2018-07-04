@@ -25,4 +25,4 @@ Languages:
     - ID: "bcf725cd-9671-40a9-8297-39d43e9b6dfe"
       Hint: Link
       Value: |
-        <link text="Learn more »" linktype="external" url="https://marketplace.sitecore.net/" anchor="" target="" />
+        <link text="Learn more" linktype="external" url="https://marketplace.sitecore.net/" anchor="" target="" />

@@ -1,7 +1,9 @@
 ﻿@model MvcAtoZ.Components.Card.CardViewModel
-    
-<div>
-    <h2>@Model.Header</h2>
-    <p>@Model.Body</p>
-    <p><a class="btn btn-default" href="@Model.Url">@Model.UrlLabel</a></p>
+
+<div class="card">
+    <h4 class="card-header">@Model.Header</h4>
+    <div class="card-body">
+        <p class="card-text">@Model.Body</p>
+        <a class="btn btn-primary" href="@Model.Url">@Model.UrlLabel</a>
+    </div>
 </div>

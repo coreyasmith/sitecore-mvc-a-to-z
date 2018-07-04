@@ -61,8 +61,8 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\packages\Glass.Mapper.Sc.Core.4.4.0.199\lib\Mvc52\Glass.Mapper.Sc.Mvc.dll</HintPath>
     </Reference>
-    <Reference Include="Kamsar.WebConsole, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Kamsar.WebConsole.2.0.0\lib\net40\Kamsar.WebConsole.dll</HintPath>
+    <Reference Include="Kamsar.WebConsole, Version=2.0.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Kamsar.WebConsole.2.0.1\lib\net40\Kamsar.WebConsole.dll</HintPath>
     </Reference>
     <Reference Include="MicroCHAP, Version=1.2.2.2, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\MicroCHAP.1.2.2.2\lib\net45\MicroCHAP.dll</HintPath>
@@ -102,8 +102,8 @@
     <Reference Include="System.Configuration" />
     <Reference Include="System.Web.Services" />
     <Reference Include="System.EnterpriseServices" />
-    <Reference Include="Unicorn, Version=4.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Unicorn.Core.4.0.0\lib\net452\Unicorn.dll</HintPath>
+    <Reference Include="Unicorn, Version=4.0.3.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Unicorn.Core.4.0.3\lib\net452\Unicorn.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -152,6 +152,10 @@
     <Content Include="App_Config\Include\z.MvcAtoZ\MvcAtoZ.Serialization.config" />
     <Content Include="Components\web.config" />
     <Content Include="App_Config\Include\Rainbow.config" />
+    <Content Include="App_Config\Include\z.Glass.Mapper.Sc.ViewRender.config.exclude" />
+    <Content Include="App_Config\Include\Glass.Mapper.Sc.Start.config" />
+    <Content Include="App_Config\Include\Glass.Mapper.Sc.config" />
+    <Content Include="App_Config\Include\Glass.Mapper.Sc.CodeFirst.config.exclude" />
     <Content Include="App_Config\Include\Unicorn\Unicorn.zSharedSecret.config.example" />
     <Content Include="App_Config\Include\Unicorn\Unicorn.UI.config" />
     <Content Include="App_Config\Include\Unicorn\Unicorn.Remote.config.disabled" />
@@ -165,10 +169,6 @@
     <Content Include="App_Config\Include\Unicorn\Unicorn.Configs.Default.example" />
     <Content Include="App_Config\Include\Unicorn\Unicorn.config" />
     <Content Include="App_Config\Include\Unicorn\Unicorn.AutoPublish.config" />
-    <Content Include="App_Config\Include\z.Glass.Mapper.Sc.ViewRender.config.exclude" />
-    <Content Include="App_Config\Include\Glass.Mapper.Sc.Start.config" />
-    <Content Include="App_Config\Include\Glass.Mapper.Sc.config" />
-    <Content Include="App_Config\Include\Glass.Mapper.Sc.CodeFirst.config.exclude" />
     <None Include="Scripts\jquery-3.2.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.2.1.js" />
     <Content Include="Scripts\jquery-3.2.1.min.js" />

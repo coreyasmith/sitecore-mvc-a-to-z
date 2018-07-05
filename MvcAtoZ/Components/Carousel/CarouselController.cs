@@ -1,14 +1,23 @@
+using System;
 using System.Linq;
 using System.Web.Mvc;
+using Glass.Mapper.Sc.Web.Mvc;
 using MvcAtoZ.Infrastructure;
 
 namespace MvcAtoZ.Components.Carousel
 {
     public class CarouselController : BaseController
     {
+        private readonly IMvcContext _mvcContext;
+
+        public CarouselController(IMvcContext mvcContext)
+        {
+            _mvcContext = mvcContext ?? throw new ArgumentNullException(nameof(mvcContext));
+        }
+
         public ActionResult Carousel()
         {
-            var dataSource = GetDataSourceItem<Carousel>();
+            var dataSource = _mvcContext.GetDataSourceItem<Carousel>();
 
             var viewModel = new CarouselViewModel
             {

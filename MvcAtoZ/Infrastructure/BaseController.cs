@@ -1,10 +1,10 @@
-﻿using System.Web.Routing;
-using Glass.Mapper.Sc.Web.Mvc;
+﻿using System.Web.Mvc;
+using System.Web.Routing;
 
 namespace MvcAtoZ.Infrastructure
 {
     [JsonFilter]
-    public class BaseController : GlassController
+    public class BaseController : Controller
     {
         protected override void Initialize(RequestContext requestContext)
         {

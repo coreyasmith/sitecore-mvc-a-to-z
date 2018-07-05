@@ -53,16 +53,17 @@
     <Reference Include="Configy, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Configy.1.0.0\lib\net45\Configy.dll</HintPath>
     </Reference>
-    <Reference Include="Glass.Mapper, Version=1.1.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Glass.Mapper.Sc.Core.4.5.0.4\lib\net45\Glass.Mapper.dll</HintPath>
+    <Reference Include="Glass.Mapper, Version=5.0.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Glass.Mapper.Sc.90.Core.5.0.2\lib\net462\Glass.Mapper.dll</HintPath>
     </Reference>
-    <Reference Include="Glass.Mapper.Sc, Version=1.1.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\Glass.Mapper.Sc.Core.4.5.0.4\lib\111\Glass.Mapper.Sc.dll</HintPath>
+    <Reference Include="Glass.Mapper.Sc, Version=5.0.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Glass.Mapper.Sc.90.Core.5.0.2\lib\net462\Glass.Mapper.Sc.dll</HintPath>
     </Reference>
-    <Reference Include="Glass.Mapper.Sc.Mvc, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\Glass.Mapper.Sc.Core.4.5.0.4\lib\Mvc52\Glass.Mapper.Sc.Mvc.dll</HintPath>
+    <Reference Include="Glass.Mapper.Sc.Mvc, Version=5.0.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Glass.Mapper.Sc.90.Mvc.5.0.2\lib\net462\Glass.Mapper.Sc.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="Glass.Mapper.Sc.WebForms, Version=5.0.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Glass.Mapper.Sc.90.WebForms.5.0.2\lib\net462\Glass.Mapper.Sc.WebForms.dll</HintPath>
     </Reference>
     <Reference Include="Kamsar.WebConsole, Version=2.0.1.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Kamsar.WebConsole.2.0.1\lib\net40\Kamsar.WebConsole.dll</HintPath>
@@ -74,6 +75,9 @@
       <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.Extensions.DependencyInjection.Abstractions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.DependencyInjection.Abstractions.1.0.0\lib\netstandard1.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll</HintPath>
+    </Reference>
     <Reference Include="Rainbow, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Rainbow.Core.2.0.0\lib\net452\Rainbow.dll</HintPath>
     </Reference>
@@ -90,6 +94,9 @@
       <HintPath>..\packages\Sitecore.Mvc.NoReferences.9.0.180604\lib\NET452\Sitecore.Mvc.dll</HintPath>
     </Reference>
     <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Reflection, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Reflection.4.3.0\lib\net462\System.Reflection.dll</HintPath>
+    </Reference>
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
@@ -157,10 +164,6 @@
     <Content Include="App_Config\Include\Unicorn\Unicorn.Configs.Default.example" />
     <Content Include="App_Config\Include\Unicorn\Unicorn.config" />
     <Content Include="App_Config\Include\Unicorn\Unicorn.AutoPublish.config" />
-    <Content Include="App_Config\Include\z.Glass.Mapper.Sc.ViewRender.config.exclude" />
-    <Content Include="App_Config\Include\Glass.Mapper.Sc.Start.config" />
-    <Content Include="App_Config\Include\Glass.Mapper.Sc.config" />
-    <Content Include="App_Config\Include\Glass.Mapper.Sc.CodeFirst.config.exclude" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\bootstrap.js" />
@@ -183,6 +186,10 @@
     <Content Include="Scripts\esm\popper.js.map" />
     <Content Include="Scripts\esm\popper-utils.min.js.map" />
     <Content Include="Scripts\esm\popper-utils.js.map" />
+    <Content Include="App_Config\Include\Glass\z.Glass.Mapper.Sc.ViewRender.config.exclude" />
+    <Content Include="App_Config\Include\Glass\Glass.Mapper.Sc.Start.config" />
+    <Content Include="App_Config\Include\Glass\Glass.Mapper.Sc.config" />
+    <Content Include="App_Config\Include\z.MvcAtoZ\MvcAtoZ.config" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
     <Content Include="Scripts\jquery-3.3.1.min.js" />
@@ -201,6 +208,7 @@
   <ItemGroup>
     <Compile Include="App_Start\GlassMapperSc.cs" />
     <Compile Include="App_Start\GlassMapperScCustom.cs" />
+    <Compile Include="GlassMapperConfigurator.cs" />
     <Compile Include="Infrastructure\ComponentsFolderConventionViewEngine.cs" />
     <Compile Include="Components\Carousel\CarouselController.cs" />
     <Compile Include="Components\Card\CardController.cs" />
@@ -219,6 +227,7 @@
     <Compile Include="Components\Navigation\NavigationBarItem.cs" />
     <Compile Include="Components\Navigation\NavigationBarViewModel.cs" />
     <Compile Include="Components\Navigation\Page.cs" />
+    <Compile Include="MvcAtoZConfigurator.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Templates.cs" />
   </ItemGroup>

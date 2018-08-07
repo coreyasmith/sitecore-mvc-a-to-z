@@ -1,8 +1,8 @@
 ﻿---
-ID: "9c7e324a-007e-4f32-a4cf-d4da9a190928"
+ID: "79862b71-5c48-4505-9396-11381bc280e0"
 Parent: "96dcadac-e85e-49de-9cbb-e259c30d71c9"
 Template: "836206ba-bac2-467e-8e1b-c8a6bcbf157f"
-Path: /sitecore/content/Home/About/Local Assets/About Carousel/Symposium 2018
+Path: "/sitecore/content/Home/About/Local Assets/About Carousel/Jean-Francois"
 DB: master
 Languages:
 - Language: en
@@ -11,15 +11,15 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20170327T030352Z
+      Value: 20180807T033141Z
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
-        sitecore\Admin
+        sitecore\admin
     - ID: "a3d84bf2-0f15-4103-ae41-f5cb65440868"
       Hint: Image
       Value: |
-        <image mediaid="{671EF9FE-3ECD-4E65-8F28-6D958B7E218C}" />
+        <image mediaid="{5B0017C7-5428-409A-A1CD-4FC420C5D397}" />
     - ID: "a64f641d-7c10-4a0e-9f7e-feed5d674720"
       Hint: Caption
-      Value: "Sitecore Symposium 2018 will be hosted in Orlando!"
+      Value: "Sitecore MVP and trainer extraordinaire Jean-François L'Heureux!"

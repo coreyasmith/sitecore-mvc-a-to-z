@@ -53,17 +53,17 @@
     <Reference Include="Configy, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Configy.1.0.0\lib\net45\Configy.dll</HintPath>
     </Reference>
-    <Reference Include="Glass.Mapper, Version=5.0.2.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Glass.Mapper.Sc.90.Core.5.0.2\lib\net462\Glass.Mapper.dll</HintPath>
+    <Reference Include="Glass.Mapper, Version=5.0.6.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Glass.Mapper.Sc.90.Core.5.0.6\lib\net462\Glass.Mapper.dll</HintPath>
     </Reference>
-    <Reference Include="Glass.Mapper.Sc, Version=5.0.2.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Glass.Mapper.Sc.90.Core.5.0.2\lib\net462\Glass.Mapper.Sc.dll</HintPath>
+    <Reference Include="Glass.Mapper.Sc, Version=5.0.6.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Glass.Mapper.Sc.90.Core.5.0.6\lib\net462\Glass.Mapper.Sc.dll</HintPath>
     </Reference>
-    <Reference Include="Glass.Mapper.Sc.Mvc, Version=5.0.2.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Glass.Mapper.Sc.90.Mvc.5.0.2\lib\net462\Glass.Mapper.Sc.Mvc.dll</HintPath>
+    <Reference Include="Glass.Mapper.Sc.Mvc, Version=5.0.6.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Glass.Mapper.Sc.90.Mvc.5.0.6\lib\net462\Glass.Mapper.Sc.Mvc.dll</HintPath>
     </Reference>
-    <Reference Include="Glass.Mapper.Sc.WebForms, Version=5.0.2.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Glass.Mapper.Sc.90.WebForms.5.0.2\lib\net462\Glass.Mapper.Sc.WebForms.dll</HintPath>
+    <Reference Include="Glass.Mapper.Sc.WebForms, Version=5.0.6.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Glass.Mapper.Sc.90.WebForms.5.0.6\lib\net462\Glass.Mapper.Sc.WebForms.dll</HintPath>
     </Reference>
     <Reference Include="Kamsar.WebConsole, Version=2.0.1.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Kamsar.WebConsole.2.0.1\lib\net40\Kamsar.WebConsole.dll</HintPath>
@@ -186,10 +186,10 @@
     <Content Include="Scripts\esm\popper.js.map" />
     <Content Include="Scripts\esm\popper-utils.min.js.map" />
     <Content Include="Scripts\esm\popper-utils.js.map" />
+    <Content Include="App_Config\Include\z.MvcAtoZ\MvcAtoZ.config" />
     <Content Include="App_Config\Include\Glass\z.Glass.Mapper.Sc.ViewRender.config.exclude" />
     <Content Include="App_Config\Include\Glass\Glass.Mapper.Sc.Start.config" />
     <Content Include="App_Config\Include\Glass\Glass.Mapper.Sc.config" />
-    <Content Include="App_Config\Include\z.MvcAtoZ\MvcAtoZ.config" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
     <Content Include="Scripts\jquery-3.3.1.min.js" />

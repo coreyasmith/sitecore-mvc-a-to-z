@@ -1,9 +1,11 @@
-﻿using Glass.Mapper.Sc;
+﻿using System;
+using Glass.Mapper.Sc;
 using Glass.Mapper.Sc.Web;
 using Glass.Mapper.Sc.Web.Mvc;
 using Glass.Mapper.Sc.Web.WebForms;
 using Microsoft.Extensions.DependencyInjection;
 using Sitecore;
+using Sitecore.Data;
 using Sitecore.DependencyInjection;
 
 namespace MvcAtoZ
@@ -12,6 +14,7 @@ namespace MvcAtoZ
     {
         public void Configure(IServiceCollection serviceCollection)
         {
+            serviceCollection.AddSingleton<Func<Database, ISitecoreService>>(_ => database => new SitecoreService(database));
             serviceCollection.AddScoped<ISitecoreService>(sp => new SitecoreService(Context.Database));
             serviceCollection.AddScoped<IGlassHtml>(sp => new GlassHtml(sp.GetService<ISitecoreService>()));
             serviceCollection.AddScoped<IMvcContext>(sp => new MvcContext(sp.GetService<ISitecoreService>()));

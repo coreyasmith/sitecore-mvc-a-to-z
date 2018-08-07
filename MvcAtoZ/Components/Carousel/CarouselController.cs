@@ -29,8 +29,8 @@ namespace MvcAtoZ.Components.Carousel
                 viewModel.Items.Add(new CarouselItemViewModel
                 {
                     Index = i,
-                    ImageUrl = item.Image.Src,
-                    ImageAlt = item.Image.Alt,
+                    ImageUrl = item.Image?.Src,
+                    ImageAlt = item.Image?.Alt,
                     ShowCaption = !string.IsNullOrEmpty(item.Caption),
                     Caption = item.Caption,
                     Class = i == 0 ? "active" : string.Empty
